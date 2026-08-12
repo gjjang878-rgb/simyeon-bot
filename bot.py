@@ -30,7 +30,7 @@ async def welcome(update: Update, context: ContextTypes.DEFAULT_TYPE):
         name = member.first_name
 
         message = (
-            "🌑 WELCOME TO 深淵\n\n"
+              "🌑 심연에 오신 것을 환영합니다\n\n"
             f"{name}님, 심연에 오신 것을 환영합니다.\n"
             "📢 공지 확인 후 활동 부탁드립니다.\n\n"
             "끝을 알 수 없는 곳, 深淵"
